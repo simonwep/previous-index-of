@@ -12,8 +12,8 @@
  */
 module.exports = (str, target, offset) => {
 
-    // Immediatly return -1 if offset is below target length
-    if (offset < target.length || typeof target !== 'string') {
+    // Immediatly return -1 if offset is below target length or non-strings where used as target or source
+    if (typeof target !== 'string' || typeof str !== 'string' || offset < target.length) {
         return -1;
     }
 

@@ -19,7 +19,12 @@ describe('previous-index-of', () => {
     });
 
     it('should return -1 if the target isn\'t a string', () => {
-        const index = previousIndexOf('sbaf bahz haz bsfz', {}, 2);
+        const index = previousIndexOf('sbaf bahz haz bsfz', null, 2);
+        assert.strictEqual(index, -1);
+    });
+
+    it('should return -1 if the source string isn\'t a string', () => {
+        const index = previousIndexOf(null, 'abc', 2);
         assert.strictEqual(index, -1);
     });
 
