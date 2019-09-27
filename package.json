@@ -1,8 +1,9 @@
 {
     "name": "previous-index-of",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Find the previous index of a char-sequence at a given offset in a string",
     "main": "index.js",
+    "typings": "index.d.ts",
     "author": "Simon Reinisch <trash@reinisch.io>",
     "license": "MIT",
     "keywords": [
