@@ -1,7 +1,7 @@
 {
     "name": "previous-index-of",
-    "version": "0.0.0",
-    "description": "String.indexOf but reversed",
+    "version": "1.0.0",
+    "description": "Find the previous index of a char-sequence at a given offset in a string",
     "main": "index.js",
     "author": "Simon Reinisch <trash@reinisch.io>",
     "license": "MIT",
