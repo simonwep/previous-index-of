@@ -5,9 +5,9 @@
    <a href="https://travis-ci.org/Simonwep/previous-index-of"><img
      alt="Build Status"
      src="https://img.shields.io/travis/Simonwep/previous-index-of.svg?style=popout-square"></a>
-  <a href="https://www.npmjs.com/package/@simonwep/previous-index-of"><img
+  <a href="https://www.npmjs.com/package/previous-index-of"><img
      alt="Download count"
-     src="https://img.shields.io/npm/dm/@simonwep/previous-index-of.svg?style=popout-square"></a>
+     src="https://img.shields.io/npm/dm/previous-index-of.svg?style=popout-square"></a>
   <img alt="No dependencies" src="https://img.shields.io/badge/dependencies-none-27ae60.svg?style=popout-square">
   <img alt="Current version"
        src="https://img.shields.io/github/tag/Simonwep/previous-index-of.svg?color=3498DB&label=version&style=flat-square">
