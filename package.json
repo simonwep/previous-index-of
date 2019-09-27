@@ -1,0 +1,21 @@
+{
+    "name": "previous-index-of",
+    "version": "0.0.0",
+    "description": "String.indexOf but reversed",
+    "main": "index.js",
+    "author": "Simon Reinisch <trash@reinisch.io>",
+    "license": "MIT",
+    "keywords": [
+        "string",
+        "utils"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "mocha": "^6.2.0"
+    }
+}
