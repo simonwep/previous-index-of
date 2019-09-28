@@ -7,13 +7,13 @@
  *
  * @param str Source string
  * @param target Target string
- * @param offset Offset
+ * @param offset Offset (inclusive)
  * @returns {number|*} The offset of the target string or -1 if the offset wasn't found.
  */
 module.exports = (str, target, offset) => {
 
     // Immediatly return -1 if offset is below target length or non-strings where used as target or source
-    if (typeof target !== 'string' || typeof str !== 'string' || offset < target.length) {
+    if (typeof target !== 'string' || typeof str !== 'string' || offset < target.length - 1) {
         return -1;
     }
 

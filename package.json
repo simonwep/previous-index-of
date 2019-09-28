@@ -1,6 +1,6 @@
 {
     "name": "previous-index-of",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Find the previous index of a char-sequence at a given offset in a string",
     "main": "index.js",
     "typings": "index.d.ts",
